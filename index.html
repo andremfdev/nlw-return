@@ -15,7 +15,7 @@
   <title>DoctorCare</title>
 </head>
 
-<body onscroll="onScroll()" class="">
+<body>
   <nav id="navigation" class="">
     <div class="wrapper">
       <a href="#" class="logo">
@@ -57,10 +57,10 @@
         <ul>
           <li><a onclick="closeMenu()" href="#home">Início</a></li>
           <li><a onclick="closeMenu()" href="#services">Serviços</a></li>
-          <li><a onclick="closeMenu()" href="#services">Sobre</a></li>
+          <li><a onclick="closeMenu()" href="#about">Sobre</a></li>
         </ul>
 
-        <a class="button" href="#">Agende sua consulta</a>
+        <a class="button" onClick="closeMenu()" href="#contact">Agende sua consulta</a>
 
         <ul class="social-links">
           <li>
@@ -142,7 +142,7 @@
           Agende sua consulta
         </a>
 
-        <img src="/assets/woman-hero.svg" alt="Mulher negra vestindo moletom verde, sorrindo" />
+        <img src="/assets/muher-negra-com-moletom-verde-com-as-maos-no-peito.png" alt="Mulher negra vestindo moletom verde, sorrindo" />
       </div>
 
       <div class="stats">
@@ -272,7 +272,7 @@
           Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim.
           Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.</p>
         <img src="/assets/doutor-feliz-segurando-uma-prancheta-com-pacientes-ao-lado.png"
-          alt="Doutor feliz segurando uma prancheta com pacientes ao seu">
+          alt="Doutor feliz segurando uma prancheta com pacientes ao seu lado">
       </div>
 
     </div>
@@ -316,7 +316,7 @@
           Agende sua consulta
         </a>
 
-        <img src="#" alt="Homem negro com meletom bege mexendo no celular e sorrindo">
+        <img src="/assets/man-using-modern-smartphone-device-while-on-couch-at-home.png" alt="Homem negro com meletom bege mexendo no celular e sorrindo">
       </div>
     </div>
   </section>
@@ -407,9 +407,10 @@
 
   <a id="backToTopButton" href="#home">
     <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-      <circle cx="20" cy="20" r="20" fill="#00856F" />
-    </svg>
-
+      <circle cx="20" cy="20" r="20" fill="#00856F"/>
+      <path d="M20 27V13" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M13 20L20 13L27 20" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
   </a>
 
   <!-- ScrollReaveal Lib -->
