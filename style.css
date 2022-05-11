@@ -7,7 +7,7 @@
 }
 
 :root {
---hue: 350;
+  --hue: 350;
 
   --primary-color: hsl(var(--hue), 100%, 26%);
   --headline-color: hsl(210, 11%, 15%);
@@ -127,10 +127,36 @@ section .content p {
   gap: 3.2rem;
 }
 
-
 img {
   max-width: 100%;
 }
+
+/*==================== CUSTOM COLORS ==================*/
+
+#services .card circle {
+  fill: var(--brand-light);
+}
+
+#navigation .logo path[ fill*='#00856F'],
+#backToTopButton circle {
+  fill: var(--primary-color);
+}
+
+button .open-menu path[stroke*='#00856F'],
+#contact li path {
+  stroke: var(--primary-color);
+}
+
+body.menu-expanded #navigation .logo path,
+#navigation.scroll .logo path {
+  fill: white;
+}
+
+#navigation.scroll button .open-menu path[stroke*='#00856F'] {
+  stroke: white;
+}
+
+
 
 /*==================== NAVIGATION ==================*/
 
@@ -156,14 +182,6 @@ nav .wrapper {
 
 nav.scroll {
   background: var(--primary-color);
-}
-
-nav.scroll .logo path {
-  fill: white;
-}
-
-nav.scroll button path {
-  stroke: white;
 }
 
 nav button {
