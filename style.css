@@ -137,12 +137,12 @@ img {
   fill: var(--brand-light);
 }
 
-#navigation .logo path[fill*='#00856F'],
+#navigation .logo path[fill*="#00856F"],
 #backToTopButton circle {
   fill: var(--primary-color);
 }
 
-button .open-menu path[stroke*='#00856F'],
+button.open-menu path[stroke*="#00856F"],
 #contact li path {
   stroke: var(--primary-color);
 }
@@ -152,7 +152,7 @@ body.menu-expanded #navigation .logo path,
   fill: white;
 }
 
-#navigation.scroll button .open-menu path[stroke*='#00856F'] {
+#navigation.scroll button.open-menu path[stroke*="#00856F"] {
   stroke: white;
 }
 
