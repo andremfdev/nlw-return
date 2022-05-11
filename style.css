@@ -147,7 +147,7 @@ button .open-menu path[stroke*='#00856F'],
   stroke: var(--primary-color);
 }
 
-body.menu-expanded #navigation .logo path,
+body.menu-expanded #navigation .logo path[fill*='#00856F'],
 #navigation.scroll .logo path {
   fill: white;
 }
